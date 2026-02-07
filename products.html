@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<style>
+#home{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+
+}
+#home h1{
+    font-size: 3.5rem;
+    color: white;
+}
+#home p{
+    font-size: 1.5rem;
+    color: azure;
+}
+#home button{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(180, 167, 51);
+    border: none;
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card img{
+    height: 250px;
+    width: auto;
+    object-fit: cover;
+
+}
+.carousel-item img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+</style>
+<body>
+    <nav class="navbar bg-dark border-bottom border-body  navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Taste Bite</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" >
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About us">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#reviews">Review</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#Faqs">Faqs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#contact us">Contact</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="home">
+    <h1 data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1000">welcome to Taste Bite</h1>
+    <p  data-aos="fade-up"  data-aos-duration="2000" data-aos-delay="1000">Experience the finest flavors in a cozy atmosphere.</p>
+    <button class="btn btn-primary btn-lg" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="2000">Explore Menu</button>
+</section>
+
+<section id="About us" class="my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid"  data-aos="fade-up-right"  data-aos-duration="500" data-aos-delay="500">
+
+            </div>
+            <div class="col-md-6 about-text">
+                <h2 data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="500">About Us </h2>
+                <p data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                <p data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="menu">
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2VyfGVufDB8fDB8fHww" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Beef juciy Burger</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="text-warning fw-bold text-center">Price: $19.99</p>
+                </div>
+            </div>
+
+        </div>
+
+ <div class="col-md-4">
+            <div class="card"  data-aos="flip-right" data-aos-duration="500" data-aos-delay="500">
+                <img src="https://images.unsplash.com/photo-1520201163981-8cc95007dd2a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cheesy Pizza</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="text-warning fw-bold text-center">Price: $19.99</p>
+                </div>
+            </div>
+
+        </div>
+     <div class="col-md-4">
+            <div class="card"  data-aos="flip-left" data-aos-duration="500" data-aos-delay="1000">
+                <img src="https://images.unsplash.com/photo-1682117651317-a575c3291555?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cheesy Pizza</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="text-warning fw-bold text-center">Price: $19.99</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+</section>
+<section id="reviews">
+    <h1 class="text-center my-5">WHAT OUR CUSTOMERS SAY</h1>
+    <div class="container text-center">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="...">
+      <h3>John Doe</h3>
+      <p>"The food was absolutely wonderful, from preparation to presentation, very pleasing."</p>
+    </div>
+    <div class="carousel-item">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="...">
+      <h3>Mary Johnson</h3>
+      <p>"A fantastic dining experience! The staff were attentive and the dishes were exquisite."</p>
+    </div>
+    <div class="carousel-item">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg"  alt="...">
+      <h3>Jane Smith</h3>
+      <p>"A delightful experience! The ambiance and flavors were top-notch. Highly recommend!"</p>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+    </div>
+
+</section>
+<section id="contact us" class="my-5">
+            <h2 class="text-center mb-4">Contact Us</h2>
+        <p class="text-center mb-4">We Would Love to hear from you! please fill out the form below.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 ">
+            <div class="mb-3">
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required minlength="10"></textarea>
+                <button class="btn btn-primary mt-3">Send Message</button>
+            </div>
+            </div>
+
+        <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.534049991725!2d67.0626887753001!3d24.98196294038506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb340e584b891c3%3A0x29b2cbc198ba2dbd!2sAptech%20Computer%20Education%20North%20Karachi%20Center!5e0!3m2!1sen!2s!4v1767872766536!5m2!1sen!2s" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Faqs">
+    <h2 class="text-center my-5">Freqently Asked Questions </h2>
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Do you offer home delivery?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Yes, we provide fast and hygienic home delivery.
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Are your ingredients fresh?
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Yes, we use 100% fresh and high-quality ingredients.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                
+              Do you have vegetarian options?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Yes, we offer a variety of vegetarian dishes.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    How can I place an order?
+               
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    You can order easily through our website or by phone.
+                  </div>
+                </div>
+              </div>
+          </div>
+
+    </div>
+
+</section>
+<footer class="simple-footer">
+  <div class="social-icons">
+    <a href="#"><i class="bi bi-facebook"></i></a>
+    <a href="#"><i class="bi bi-instagram"></i></a>
+    <a href="#"><i class="bi bi-twitter"></i></a>
+  </div>
+
+  <p class="copyright">
+    © 2026 Taste Bite Restaurant. All Rights Reserved.
+  </p>
+</footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+  <script>
+     let name = document.getElementById("name");
+     let email = document.getElementById("email");
+      let message = document.getElementById("message");
+
+     user.addEventlistener("keyup",function(){
+     usererror.innertext = user.value.lenght < 3 ? "user name to short" : ""; 
+     })
+     Email.addEventlistener("keyup",function) 
+</script>
+</html>
